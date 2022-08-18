@@ -1,0 +1,146 @@
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.2rem;
+    background-color: #fafafa;
+}
+.nav-bar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 40%;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.learn{
+    color: #045256;
+}
+.swahili{
+    color: #9ab8ba;
+    font-weight: 500;
+}
+.nav-list{
+    display: flex;
+    font-size: 1.5rem;
+    gap: 2rem;
+    font-weight: 500;
+    padding: 20px;
+}
+.nav-list a{
+    text-decoration: none;
+    color: #045256;
+}
+.nav-list a:hover{
+    font-weight: bold;
+}
+.showcase{
+    background-image: url(./rich-tervet-1jUPdfWZgps-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    max-width: 500px;
+    margin: 25px;
+    padding: 35px;
+}
+.intro h1{
+    color: #045256;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.intro p{
+    color: #5b898c;
+    padding: 25px 0;
+}
+.showcase-buttons{
+    margin-top: 15px;
+    display: flex;
+    gap: 1rem;
+}
+.showcase-buttons .button{
+    font-size: 1.3rem;
+    padding: .5em;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px rgba(2, 51, 54, 0.4);
+}
+#login{
+    background-color: #045256;
+    color: #ddf7f8;
+}
+#start{
+    background-color: #ddf7f8;
+    color: #045256;
+}
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+    justify-content: center;
+}
+.service-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+    text-align: center;
+}
+.service{
+    width: 25%;
+    color: #5b898c;
+}
+.service h3{
+    color: #045256;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 25px auto;
+
+}
+.sub-heading{
+    color: #045256;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 35px;
+}
+.about{
+    color: #5b898c;
+    margin: 25px 0;
+}
+.about-content{
+    margin: 25px 0;
+    line-height: 1.3;
+}
+.contacts form{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+    gap: 2rem;
+}
+.contacts form input,textarea,button{
+    border: #045256 2px solid;
+    border-radius: 10px;
+    outline: #045256;
+    padding: 5px;
+}
+.contacts form button{
+    background-color: #045256;
+    color: #ddf7f8;
+    box-shadow: 8px 8px 10px rgba(2, 51, 54, 0.4);
+}
+footer{
+    background-color: #045256;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ddf7f8;
+}
